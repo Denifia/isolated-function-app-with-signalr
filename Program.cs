@@ -8,7 +8,6 @@ var host = new HostBuilder()
     .ConfigureServices((builder, services) =>
     {
         services.AddHostedService<BackgroundWorker>();
-        services.AddSingleton<Instance>();
 
         var functionUri = builder.Configuration.GetValue<Uri>("FunctionsUri");
         services.AddHttpClient("function-api", config =>
