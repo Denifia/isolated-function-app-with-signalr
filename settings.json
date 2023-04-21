@@ -1,0 +1,19 @@
+{
+  "UpstreamSettings": {
+    "Templates": [
+      {
+        "UrlTemplate": "http://localhost:7179/runtime/webhooks/signalr",
+        "EventPattern": "*",
+        "HubPattern": "*",
+        "CategoryPattern": "*"
+      }
+      // ,
+      // {
+      //   "UrlTemplate": "http://localhost:7180/runtime/webhooks/signalr",
+      //   "EventPattern": "*",
+      //   "HubPattern": "*",
+      //   "CategoryPattern": "*"
+      // }
+    ]
+  }
+}

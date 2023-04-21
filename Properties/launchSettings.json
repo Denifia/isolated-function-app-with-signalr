@@ -1,0 +1,20 @@
+{
+    "profiles": {
+        "app instance 1": {
+            "commandName": "Project",
+            "commandLineArgs": "--port 7179",
+            "launchBrowser": false,
+            "environmentVariables": {
+                "FunctionsUri": "http://localhost:7179"
+            }
+        },
+        "app instance 2": {
+            "commandName": "Project",
+            "commandLineArgs": "--port 7180",
+            "launchBrowser": false,
+            "environmentVariables": {
+                "FunctionsUri": "http://localhost:7180"
+            }
+        }
+    }
+}
